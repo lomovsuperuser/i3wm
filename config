@@ -13,7 +13,7 @@ set $mod Mod4
 #Автозапуск flameshot для работы со скриншотами
 exec --no-startup-id flameshot
 
-#Отк.чение заголовков окон
+#disabling window headers
 default_border pixel
 
 # Font for window titles. Will also be used by the bar unless a different font
