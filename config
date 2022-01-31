@@ -10,8 +10,11 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
-#Автозапуск flameshot для работы со скриншотами
+#autorun flameshot to create screenshots
 exec --no-startup-id flameshot
+
+#launching flameshot with the printscreen key
+bindsym Print exec --no-startup-id flameshot gui
 
 #disabling window headers
 default_border pixel
@@ -50,9 +53,6 @@ bindsym $mod+Return exec xfce4-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
-
-#Привязываем запуск flameshot к клавише Print Screen
-bindsym Print exec --no-startup-id flameshot gui
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id dmenu_run
