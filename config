@@ -9,6 +9,10 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+#autorun nitrogen & conky
+exec nitrogen --restore
+exec conky -c ~/.config/i3/conky_c
+
 set $mod Mod4
 #autorun flameshot to create screenshots
 exec --no-startup-id flameshot
