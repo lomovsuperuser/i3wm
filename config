@@ -48,6 +48,18 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec xfce4-terminal
 
+# start a firefox
+bindsym $mod+Shift+f exec firefox
+
+# start a telegram
+bindsym $mod+Shift+t exec telegram-desktop
+
+# start a thunar
+bindsym $mod+Shift+h exec thunar
+
+# start a emacs
+bindsym $mod+Shift+e exec emacs
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -151,7 +163,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
