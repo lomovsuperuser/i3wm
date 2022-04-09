@@ -51,6 +51,9 @@ bindsym $mod+Return exec xfce4-terminal
 # start a firefox
 bindsym $mod+Shift+f exec firefox
 
+# start a yandex-browser
+bindsym $mod+Shift+y exec yandex-browser
+
 # start a telegram
 bindsym $mod+Shift+t exec telegram-desktop
 
